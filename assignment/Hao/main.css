@@ -1,0 +1,185 @@
+body {
+    background-image: url("https://i0.wp.com/codemyui.com/wp-content/uploads/2016/11/pure-css-snow-animation.gif?fit=880%2C440&ssl=1");
+}
+
+#baophu {
+    position: relative;
+    font-weight: bold;
+    margin: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#thietke1 {
+    display: flex;
+    align-content: flex-start;
+}
+
+#thietke2 {
+    display: flex;
+    align-content: flex-start;
+}
+
+#tieude-benphai {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#tieude-benphai a {
+    text-decoration: none;
+}
+
+#tieude-bentrai {
+    margin-left: 750px;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+.p-1 a:hover {
+    color: red;
+}
+
+/*thiết kế thanh công cụ chính của website*/
+
+.item1 {
+    background-color: #47bdec;
+    border: 2px solid black;
+    border-radius: 12px;
+    overflow: auto;
+}
+
+.item1 a {
+    text-decoration: none;
+    font-weight: bold;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 15px;
+}
+
+.item1 a:hover {
+    background-color: #0099cc;
+}
+
+/*cloose*/
+
+/* thiết kế thanh tìm kiếm box*/
+
+#timkiem-input {
+    width: 320px;
+    height: 39px;
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 9px;
+}
+
+/*cloose*/
+
+/* thiết kế MENU nằm bên phải*/
+
+.thietke-menu-benphai {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col"] {
+    float: left;
+    padding: 11px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.menu li:hover {
+    background-color: #0099cc;
+}
+
+/* cloose */
+
+/* thiết kế đăng ký*/
+
+.thietke-dang-ky {
+    margin-left: 15px;
+    border: 1px black;
+    display: flex;
+    align-content: flex-start;
+}
+
+.thietke-nen {
+    margin-top: 15px;
+    border-radius: 12px;
+    background-color: #33b5e5;
+    width: 250px;
+    height: 250px;
+}
+
+.output {
+    display: flex;
+    align-content: flex-start;
+}
+
+.output-p {
+    border-radius: 10px;
+    margin-left: 30px;
+    background-color: #33b5e5;
+    width: 250px;
+    height: 250px;
+}
+
+/* cloose*/
+
+/* thiết kế nội dung chính*/
+
+#gop {
+    display: flex;
+    align-content: flex-start;
+}
+
+.thietke-noi-dung-1 {
+    margin-top: 10px;
+    margin-left: 50px;
+    border: 1px solid black;
+    background-color: #33b5e5;
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+}
+
+/* cloose*/
+
+/* thiết kế đấu giá*/
+
+.thietke-dau-gia {
+    margin-left: 15px;
+    border: 1px black;
+    display: flex;
+    align-content: flex-start;
+}
+
+.thietke-nen-2 {
+    margin-top: 15px;
+    border-radius: 12px;
+    background-color: #33b5e5;
+    width: 250px;
+    height: 250px;
+}
+
+/* cloose*/

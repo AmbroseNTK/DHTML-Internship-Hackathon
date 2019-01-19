@@ -1,0 +1,29 @@
+.main-nav {
+    display: flex;
+    flex-direction: row wrap;
+    align-content: stretch;
+    background: gray;
+}
+
+.main-nav a {
+    display: block;
+    padding: 10px;
+    color: #ffffff;
+    flex: auto;
+    align-self: center;
+    text-align: center;
+    background: green;
+}
+
+.main-nav a:hover {
+    background: #2980b9;
+}
+
+.type {
+    text-decoration: none;
+}
+
+.wes {
+    text-align: center;
+    text-shadow: 3px 2px pink;
+}
